@@ -1,0 +1,41 @@
+# Archivos de compilación
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Archivos de CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Archivos de Doxygen
+docs/output/
+html/
+latex/
+
+# Archivos del IDE
+.vscode/
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Archivos temporales
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Archivos de Arduino
+*.hex
+*.elf
